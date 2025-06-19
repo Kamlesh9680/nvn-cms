@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newses",
+  "info": {
+    "singularName": "news",
+    "pluralName": "newses",
+    "displayName": "News"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "newsType": {
+      "type": "dynamiczone",
+      "components": [
+        "custom.youtube-video",
+        "custom.instagram-post"
+      ],
+      "required": true,
+      "max": 1
+    }
+  }
+}

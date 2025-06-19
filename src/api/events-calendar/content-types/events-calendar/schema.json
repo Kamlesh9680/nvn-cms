@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "events_calendars",
+  "info": {
+    "singularName": "events-calendar",
+    "pluralName": "events-calendars",
+    "displayName": "Events Calendar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Events": {
+      "displayName": "Event",
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.event"
+    }
+  }
+}
